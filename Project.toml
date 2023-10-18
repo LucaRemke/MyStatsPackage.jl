@@ -1,0 +1,7 @@
+name = "MyStatsPackage"
+uuid = "01e72386-491c-4891-a772-3e7f99cc9e33"
+authors = ["LucaRemke <luca.remke@idsr.uni-stuttgart.de>"]
+version = "0.1.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
