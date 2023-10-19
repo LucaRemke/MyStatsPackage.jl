@@ -7,6 +7,6 @@
     @testset "rse_mean" begin
         @test rse_mean(-15:17) == 1
         # provoke an error to see the behaviour
-        @test rse_mean(-15:17) == 2
+        @test rse_mean(-15:17) == 1
     end
 end
