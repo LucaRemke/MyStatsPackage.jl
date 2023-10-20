@@ -1,3 +1,27 @@
+"""
+    rse_sum(myrange)
+
+Returns the sum of a UnitRange
+
+# Arguments
+
+- `myrange` -- The range, which sum should be calculated
+
+# Output
+
+A number representing the sum
+
+# Notes
+
+This function was definied during the Julia Summer School. 
+
+# Examples
+
+```julia-repl
+julia> rse_sum(1:3)
+6
+\```
+"""
 function rse_sum(range)
     return sum(range)
 end;
